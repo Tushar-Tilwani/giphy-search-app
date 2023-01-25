@@ -1,0 +1,65 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.description {
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  font-size: 0.85rem;
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 2;
+  font-family: var(--font-mono);
+}
+
+.description a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.description p {
+  position: relative;
+  margin: 0;
+  padding: 1rem;
+  background-color: rgba(var(--callout-rgb), 0.5);
+  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+  border-radius: var(--border-radius);
+}
+
+.container {
+  margin: auto;
+  padding: 10px;
+}
+
+.giphyGrid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 4fr;
+  background-color: #efefef;
+  margin-top: 40px;
+}
+
+.input {
+  min-width: 200px;
+  min-height: 30px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.searchBtn {
+  padding: 20px;
+  background-color: blueviolet;
+  color: white;
+}
