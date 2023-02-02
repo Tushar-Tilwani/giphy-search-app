@@ -46,7 +46,11 @@ const Home = (props: any) => {
       <main className={styles.main}>
         <header>
           <h1>{TITLE}</h1>
-          <form>
+          <form
+            onSubmit={(e) => {
+              e.preventDefault();
+            }}
+          >
             <input
               className={styles.input}
               value={searchStr}
